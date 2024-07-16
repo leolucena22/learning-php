@@ -96,6 +96,7 @@ echo "<br><br>";
 
 echo "<h3>Operadores de Arrays</h3>";
 
+echo "<h4>União +<h4> </h4>";
 
 $array1 = [0 => 'PHPBA', '1' => 'PHPSP', 2 => 'PHPSE'];
 $array2 = [3 => 'he4rtdevs'];
@@ -113,3 +114,51 @@ Array
 [3] => he4rtdevs
 )
  **/
+
+echo "<h4>Igualdade ==<h4> </h4>";
+
+
+$array1 = [0 => 1];
+$array2 = [0 => 1];
+
+echo $array1 == $array2;
+
+//Retorna: 1, significa que os valores dos arrays são iguais
+
+echo "<br><br>";
+
+echo "<h4>Diferença != ou <></h4>";
+
+$array1 = [0 => 1];
+$array2 = [0 => 2];
+
+echo $array1 != $array2;
+
+//Retorna: 1, significa que os valores dos arrays são diferentes
+
+echo "<br><br>";
+
+echo "<h4>Idêntico ===</h4>";
+
+$array1 = [0 => 1];
+$array2 = [0 => 1];
+
+echo $array1 === $array2;
+
+//Retorna: 1, significa que os valores dos arrays são iguais e do mesmo tipo (número inteiro)
+
+echo "<br><br>";
+
+echo "<h4>Não Idêntico !==</h4>";
+
+$array1 = [0 => 1];
+$array2 = [0 => '1'];
+
+echo $array1 !== $array2;
+
+//Retorna: 1, significa que os valores dos arrays não são iguais e/ou não são do mesmo tipo (número inteiro)
+
+echo "<br><br>";
+
+echo "<h3>Operadores Lógicos</h3>";
+
